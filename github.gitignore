@@ -1,0 +1,15 @@
+# WordPress core files (if not needed)
+/wp-admin/
+/wp-includes/
+
+# Sensitive files
+wp-config.php
+.htaccess
+
+# Environment-specific files
+.env
+
+# Large folders
+/node_modules/
+/uploads/
+/wp-content/cache/
